@@ -1,0 +1,44 @@
+# ==========================================
+# Virtual Environment
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Python Bytecode & Cache Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Jupyter Notebook Checkpoints & Cache
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==========================================
+# Environment Variables & API Keys (CRITICAL)
+# ==========================================
+.env
+*.env
+config.py
+secrets.toml
+
+# ==========================================
+# OS & IDE Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# Notes to understand concepts
+# ==========================================
+notes.txt
