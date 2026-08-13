@@ -1,0 +1,20 @@
+{
+    "18-32": {
+        "avg_stress_pct": 66.31,
+        "avg_productivity_pct": 35.11,
+        "avg_screen_time_hours": 5.47,
+        "sample_size": 5293
+    },
+    "33-47": {
+        "avg_stress_pct": 66.53,
+        "avg_productivity_pct": 34.6,
+        "avg_screen_time_hours": 5.5,
+        "sample_size": 5517
+    },
+    "48-59": {
+        "avg_stress_pct": 66.51,
+        "avg_productivity_pct": 34.48,
+        "avg_screen_time_hours": 5.54,
+        "sample_size": 4190
+    }
+}
