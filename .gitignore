@@ -15,12 +15,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-
-# ==========================================
-# Jupyter Notebook Checkpoints & Cache
-# ==========================================
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/
+*.pyc
 
 # ==========================================
 # Environment Variables & API Keys (CRITICAL)
@@ -38,12 +33,13 @@ Thumbs.db
 .vscode/
 .idea/
 
-# ==========================================
+
 # Notes to understand concepts
-# ==========================================
 notes.txt
 
-# ==========================================
-# RAW Data
-# ==========================================
-screentime_and_stress.csv
+# Data files
+data/raw
+data/processed/*.csv
+
+# Serialized model artifacts (large binaries, regenerable from notebooks)
+models/*.pkl
